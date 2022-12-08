@@ -1,0 +1,69 @@
+.user-card {
+    width: 350px;
+    background: #b3d7ff;
+    margin: 10px;
+}
+
+.user-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 80px 50px;
+}
+
+.add-btn {
+    margin-top: 20px;
+    background-color: red;
+    padding: 14px 30px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 90px;
+    margin-left: 90px;
+    border-bottom: 2px solid red;
+}
+
+.user-name {
+    margin-left: 10px;
+    color: green;
+    text-transform: capitalize;
+}
+
+.user-mobile {
+    margin-left: 10px;
+    color: #172337;
+}
+
+.btn-card {
+    display: flex;
+    justify-content: end;
+    margin: 10px;
+}
+
+.filter-input{
+    padding: 13px;
+    margin-right: 10px;
+    border: 1px solid #999;
+    border-radius: 4px;
+    width: 250px;
+}
+
+.edit-btn{
+    background-color: blue;
+    border: none;
+    color: #fff;
+    padding: 5px;
+}
+
+.del-btn{
+    background-color: red;
+    border: none;
+    color: #fff;
+    padding: 5px;
+}
+
